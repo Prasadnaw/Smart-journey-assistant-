@@ -1,7 +1,7 @@
 // Production backend on Render.
 // For local development, Vite can still proxy /api requests if VITE_API_BASE
 // is not set.
-const BASE = 'https://smart-journey-assistant.onrender.com'
+const BASE = 'https://smart-journey-assistant-1-web.onrender.com'
   import.meta.env.VITE_API_BASE ||
   (import.meta.env.DEV ? '' : 'https://smart-journey-assistant.onrender.com')
 
